@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 100px;
+        }
+        .alert {
+            text-align: center;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .content {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .content p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://github.githubassets.com/assets/octocat-logo-805b5c3e249f.png" alt="GitHub Logo">
+            <div class="alert">Reset your GitHub password</div>
+        </div>
+        <div class="content">
+            <h2>GitHub password reset</h2>
+            <p>We heard that you lost your GitHub password. Sorry about that!</p>
+            <p>But don’t worry! You can use the following button to reset your password:</p>
+            <a href="https://malicious-link.com" class="btn">Reset your password</a>
+            <p>If you don’t use this link within 3 hours, it will expire. To get a new password reset link, visit: <a href="https://github.com/password_reset">https://github.com/password_reset</a></p>
+            <p>Thanks,<br>The GitHub Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 GitHub, Inc. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
