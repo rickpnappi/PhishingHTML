@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Example2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #003366;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .content h2 {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .content p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #999;
+        }
+        .footer img {
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>__ORGANIZATION__ Cybersecurity Training</h1>
+        </div>
+        <div class="content">
+            <h2>Mandatory Cybersecurity Training Session</h2>
+            <p>Dear __FIRST_NAME__,</p>
+            <p>In our continuous efforts to maintain the highest level of cybersecurity, __ORGANIZATION__ is conducting a mandatory cybersecurity training session for all employees. This training is essential to ensure that everyone is equipped with the knowledge and tools to protect our systems and data.</p>
+            <p>The training session is scheduled for __DATE__ and must be completed by all employees. Please use the link below to access the training materials and complete the session:</p>
+            <a href="__URL__" class="btn">Access Training Materials</a>
+            <p>For any questions or further assistance, please contact our support team at __EMAIL__.</p>
+            <p>Thank you for your cooperation and prompt attention to this important matter.</p>
+            <p>Best regards,<br>__ORGANIZATION__ Cybersecurity Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 __ORGANIZATION__. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
